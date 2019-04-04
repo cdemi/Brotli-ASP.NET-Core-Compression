@@ -6,9 +6,6 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Brotli-ASP.NET-Core-Compression", "Brotli-ASP.NET-Core-Compression\Brotli-ASP.NET-Core-Compression.csproj", "{FABF9A3D-A219-486C-B912-0B479ECF2208}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F053F5A9-7BA6-4C62-A76A-2B4515EC4DBD}"
-	ProjectSection(SolutionItems) = preProject
-		NuGet.Config = NuGet.Config
-	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,5 +20,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {52A2F458-AA34-48D6-9CFE-50DF686C8ABD}
 	EndGlobalSection
 EndGlobal
